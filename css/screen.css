@@ -30,10 +30,10 @@ html, body { min-height: 100%; width: 100%; position: relative; }
 
 .out { width: 1000px; width: 100%; position: absolute; bottom: 10px; left: 0; top: 0; right: 0; overflow: hidden; }
 
-.bottomer { overflow: auto; width: 1000px; padding-bottom: 20px; position: absolute; bottom: 10px; left: 0; top: 0; right: 0; width: 100%; }
+.bottomer { overflow: auto; width: 1000px; padding-bottom: 20px; position: absolute; bottom: 10px; left: 0; top: 0; right: 0; width: 100%; padding-top: 130px; }
 
-.topper { position: fixed; background: white; z-index: 10; width: 1000px; overflow: hidden; width: 100%; top: 0; left: 0; right: 0; }
-.topper td { background: white; }
+.topper { position: fixed; background: white; z-index: 10; width: 1000px; overflow: hidden; width: 100%; top: 0; left: 0; right: 0; height: 130px; }
+.topper td { background: white; height: 130px; }
 
 .hideme { opacity: 0; visibility: hidden; }
 
