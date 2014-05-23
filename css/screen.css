@@ -28,7 +28,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; }
 
 .out { width: 1000px; overflow: hidden; }
 
-.bottomer { overflow: auto; width: 1000px; border: 1px solid green; }
+.bottomer { overflow: auto; width: 1000px; border: 1px solid green; padding-bottom: 20px; height: 500px; }
 
 .topper { position: fixed; background: white; z-index: 10; width: 1000px; overflow: hidden; }
 .topper td { background: white; }
